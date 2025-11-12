@@ -1,6 +1,12 @@
 pluginManagement {
     repositories {
-        google()
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
         mavenCentral()
         gradlePluginPortal()
     }
@@ -13,6 +19,4 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ComunidadeSustentavel"
-include ':app'
-include ':app'
+rootProject.name = "My Application"
