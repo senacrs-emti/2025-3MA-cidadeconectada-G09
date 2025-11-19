@@ -4,15 +4,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/txtTitulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="HortaMap"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_margin="160dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btnAcessarMapa"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Acessar Mapa"
+        android:backgroundTint="#6E8F62"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/txtTitulo"
+        app:layout_constraintTop_margin="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnSeInscrever"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Se-Inscrever"
+        android:backgroundTint="#6E8F62"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/btnAcessarMapa"
+        app:layout_constraintTop_margin="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btnVoluntario"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Seja Voluntário!"
+        android:backgroundTint="#7F84B7"
+        android:textColor="#FFFFFF"
+        app:layout_constraintTop_toBottomOf="@id/btnSeInscrever"
+        app:layout_constraintTop_margin="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
