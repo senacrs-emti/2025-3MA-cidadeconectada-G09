@@ -4,56 +4,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg"
+    android:background="#DCDCDC"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/txtTitulo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="HortaMap"
-        android:textSize="42sp"
-        android:textStyle="bold"
-        android:textColor="#FFFFFF"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintTop_margin="160dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"/>
 
     <Button
         android:id="@+id/btnAcessarMapa"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:text="Acessar Mapa"
+        android:layout_marginTop="460dp"
         android:backgroundTint="#6E8F62"
+        android:text="Acessar Mapa"
         android:textColor="#FFFFFF"
-        app:layout_constraintTop_toBottomOf="@id/txtTitulo"
-        app:layout_constraintTop_margin="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_margin="60dp"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnSeInscrever"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:text="Se-Inscrever"
+        android:layout_marginTop="20dp"
         android:backgroundTint="#6E8F62"
+        android:text="Se-Inscrever"
         android:textColor="#FFFFFF"
-        app:layout_constraintTop_toBottomOf="@id/btnAcessarMapa"
-        app:layout_constraintTop_margin="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/btnAcessarMapa" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="376dp"
+        android:backgroundTint="#E0E0E0"
+        android:text="HortaMap"
+        android:textColor="#FFFFFF"
+        android:textSize="42sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_margin="160dp"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnVoluntario"
         android:layout_width="250dp"
         android:layout_height="50dp"
-        android:text="Seja Voluntário!"
+        android:layout_marginTop="16dp"
         android:backgroundTint="#7F84B7"
+        android:text="Seja Voluntário!"
         android:textColor="#FFFFFF"
-        app:layout_constraintTop_toBottomOf="@id/btnSeInscrever"
-        app:layout_constraintTop_margin="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/btnSeInscrever" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
