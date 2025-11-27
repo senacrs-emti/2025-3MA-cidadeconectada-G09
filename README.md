@@ -1,4 +1,4 @@
 # 2025-3MA-cidadeconectada-G09
-Ana para leo kalil
--ALO
--ALO
+Este projeto visa compreender o impacto das hortas urbanas em Porto Alegre, destacando seu potencial para promover segurança alimentar, educação ambiental, mitigação de desastres naturais e participação da comunidade. É fundamental compreender melhor o impacto dessas iniciativas na sociedade explorando seus benefícios, garantindo sua sustentabilidade a longo prazo, por meio dessas pautas não busca não apenas compreender o papel das hortas urbanas em relação à segurança alimentar, mas também destacar as capacidades de promover aprendizados que estimulem a solidariedade comunitária em prol dos impactos positivos às pessoas e ao meio ambiente. 
+
+A partir da conclusão do projeto de pesquisa bibliográfica sobre o impacto social das hortas urbanas nos bairros de Porto Alegre, que evidencia a relevância das iniciativas coletivas voltadas à sustentabilidade e à coletividade, os dados obtidos e filtrados por regiões da cidade servirão de base para o desenvolvimento de um aplicativo capaz de mapear as hortas urbanas de Porto Alegre, identificar possíveis áreas de risco e promover a integração entre as comunidades locais, com o objetivo de reconhecer a relevância do método de agricultura urbana e periurbana (hortas urbanas e comunitárias) como potencial de transformação socioambiental, incentivo coletivo e ferramenta para viabilizar soluções para a fome e a miséria e melhoria da qualidade de vida em bairros. 
